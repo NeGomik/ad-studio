@@ -1,0 +1,96 @@
+.header {
+    &__container {
+        display: flex;
+        padding-top: 30px;
+    }
+    &__logo {
+        width: 77px;
+        height: 56px;
+        margin-left: 131px;
+        &-svg {
+            width: 100%;
+            height: 100%;
+            fill: #000000;
+        }
+        &-svg:hover {
+            transform: scale(1.1);
+            fill: #FFD310;
+            transition: 0.3s;
+        }
+    }
+    &__menu {
+        padding-top: 18.5px;
+        &-items {
+            display: flex;
+            flex-direction: row;
+            gap: 22px;
+            &-link {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+            }
+        }
+    }
+    &__img {
+        padding-top: 18.5px;
+        margin-left: 131px;
+    }
+    &__contacts {
+        padding-top: 18.5px;
+        margin-left: 289px;
+        &-number {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-number:hover {
+            color: #FFD310;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        &-tg {
+            margin-left: 24px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-tg:hover {
+            color: #FFD310;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        &-vk {
+            margin-left: 12px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-vk:hover {
+            color: #FFD310;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        &-ig {
+            margin-left: 12px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-ig:hover {
+            color: #FFD310;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+    }
+}
+
+.headre__menu-item-link:hover {
+    color: #FFD310;
+    font-size: 18px;
+    transition: 0.3s;
+}
